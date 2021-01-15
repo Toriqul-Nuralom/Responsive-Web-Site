@@ -1,13 +1,87 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Barlow Condensed', sans-serif;
+}
 header{
-    background-color: antiquewhite;
+    background-color: wheat;
 }
-.banner h1{
-    font-weight: 800;
-    font-size: 50px;
+
+/* navbar css start */
+nav img{
+    width: 300px;
 }
-.banner button{
-    background-image: linear-gradient(360deg, rgb(40, 40, 255) 0, rgb(110, 110, 255));
-    color: white;
+nav{
+    background-color: wheat;
     font-size: 20px;
     font-weight: 600;
 }
+nav a:hover{
+    background-color: burlywood;
+    color: white!important;
+}
+/* navbar css end */
+
+/* banner css start */
+.banner-details h1{
+    font-weight: 800;
+    font-size: 50px;
+}
+.banner-batton img{
+    width: 50px;
+}
+.banner-batton{
+    padding: 10px 30px;
+    border-radius: 10px;
+    background-color: rgb(70, 70, 250);
+    color: white;
+    font-size: 20px;
+}
+.banner-batton:hover{
+    background-image: linear-gradient(rgb(69, 247, 69) 0, green);
+    font-size: 20px;
+}
+/* banner css end */
+
+
+/* shoes display css start */
+.all-card-footer img{
+    width: 50px;
+}
+.all-card-footer button{
+    background-color: rgb(70, 70, 250);
+    color: white;
+    font-size: 20px;
+}
+.all-card-footer h1{
+    color: coral;
+}
+.all-card-footer{
+    background-color: white!important;
+    border: 0!important;
+}
+/* shoes display css end */
+
+
+/* last part start */
+.last-section img{
+    width: 100px;
+}
+/* last part end */
+
+
+/* carucel css start */
+.slider{
+    background-color: rgba(245, 222, 179, 0.5);
+}
+.slider-detial button{
+    background-color: rgb(70, 70, 250);
+    color: white;
+    font-size: 20px;
+}
+
+.slider-detial img{
+    width: 50px;
+}
+/* carucel css end */
+
